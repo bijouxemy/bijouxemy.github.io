@@ -93,6 +93,7 @@ li{
 
 a{
     text-decoration: none;
+    color: var(--fourth-color);
 }
 
 
@@ -154,7 +155,7 @@ a{
 @media only screen and (max-width: 500px){
 
     .header-top-title{
-        font-size: 3.5rem !important; /* 7.407vh */
+        font-size: 2.5rem !important; /* 7.407vh */
     }
 
     .header-top-1{
@@ -255,7 +256,8 @@ a{
 .header-bottom-path{
     color: var(--fifth-color);
     font-weight: normal;
-    width: 20%;
+    /* width: 20%; */
+    width: 100%;
     min-width: 20%;
     height: 100%;
     text-align: center;
